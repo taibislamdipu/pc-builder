@@ -2,8 +2,8 @@
     {
         "id": "101",
         "name": "Intel 10th Gen Comet Lake Core i5 10400F Desktop Processor",
-        "core": 6,
-        "price": "14400",
+        "brand": "Intel",
+        "price": 14400,
         "star": 3,
         "reviewCount": 10,
         "image": "https://i.imgur.com/ZA4JPvQ.jpg"
@@ -11,37 +11,181 @@
     {
         "id": "102",
         "name": "Intel 11th Gen Rocket Lake Core i5 11400 Desktop Processor",
-        "core": 8,
-        "price": "19500",
+        "brand": "Intel",
+        "price": 19500,
         "star": 4,
         "reviewCount": 13,
-        "image": "https://i.imgur.com/ZA4JPvQ.jpg"
+        "image": "https://i.imgur.com/UsEgFbi.jpg"
     },
     {
         "id": "103",
-        "name": "Intel 10th Gen Comet Lake Core i5 10400F Desktop Processor",
-        "core": 6,
-        "price": "14400",
-        "star": 3,
-        "reviewCount": 223,
-        "image": "https://i.imgur.com/ZA4JPvQ.jpg"
+        "name": "Intel 9th Gen Coffee Lake Core i7 9700K Desktop Processor",
+        "brand": "Intel",
+        "price": 35500,
+        "star": 5,
+        "reviewCount": 2,
+        "image": "https://i.imgur.com/np5cH2l.jpg"
     },
     {
         "id": "104",
-        "name": "Intel 10th Gen Comet Lake Core i5 10400F Desktop Processor",
-        "core": 8,
-        "price": "14400",
-        "star": 3,
-        "reviewCount": 303,
-        "image": "https://i.imgur.com/ZA4JPvQ.jpg"
+        "name": "Intel Kaby Lake Xeon E3-1240 v6 8MB Cache LGA1151 Desktop Processor",
+        "brand": "Intel",
+        "price": 28000,
+        "star": 4,
+        "reviewCount": 1,
+        "image": "https://i.imgur.com/hrrRgdV.jpg"
     },
     {
         "id": "105",
-        "name": "Intel 10th Gen Comet Lake Core i5 10400F Desktop Processor",
-        "core": 8,
-        "price": "14400",
+        "name": "Intel 10th Gen Comet Lake Core i3 10100 Desktop Processor",
+        "brand": "Intel",
+        "price": 11450,
         "star": 3,
         "reviewCount": 42,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/415oziPFA0L._AC_US218_.jpg"
+        "image": "https://i.imgur.com/EeTouUR.jpg"
+    },
+    {
+        "id": "106",
+        "name": "AMD Ryzen 7 3800X Without GPU Desktop Processor",
+        "brand": "AMD",
+        "price": 30000,
+        "star": 5,
+        "reviewCount": 2,
+        "image": "https://i.imgur.com/RvJnhtI.jpg"
+    },
+    {
+        "id": "107",
+        "name": "AMD Ryzen 9 5950X 3.4GHz-4.9GHz Processor",
+        "brand": "AMD",
+        "price": 85000,
+        "star": 0,
+        "reviewCount": 0,
+        "image": "https://i.imgur.com/xNOWKod.jpg"
+    },
+    {
+        "id": "108",
+        "name": "Asus ROG STRIX B460-H 10th Gen GAMING Intel Motherboard",
+        "brand": "Asus",
+        "price": 85000,
+        "star": 0,
+        "reviewCount": 0,
+        "image": "https://i.imgur.com/1ZJLqEt.jpg"
+    },
+    {
+        "id": "109",
+        "name": "Asus ROG Strix 750W Full Moduler 80 Plus Gold Certified PSU",
+        "brand": "Asus",
+        "price": 14500,
+        "star": 0,
+        "reviewCount": 0,
+        "image": "https://i.imgur.com/BaAVrz1.jpg"
+    },
+    {
+        "id": "110",
+        "name": "MSI B450 TOMAHAWK MAX AMD Motherboard",
+        "brand": "MSI",
+        "price": 11500,
+        "star": 5,
+        "reviewCount": 1,
+        "image": "https://i.imgur.com/LkClAo2.jpg"
+    },
+    {
+        "id": "111",
+        "name": "Corsair Dominator Platinum RGB 8GB DDR4 3600MHz Black Heatsink Gaming Desktop RAM",
+        "brand": "Corsair",
+        "price": 7800,
+        "star": 5,
+        "reviewCount": 1,
+        "image": "https://i.imgur.com/lf6AJpe.png"
+    },
+    {
+        "id": "112",
+        "name": "G.Skill Ripjaws V 4GB DDR4 2400MHz Red Heatsink Desktop RAM",
+        "brand": "G.Skill",
+        "price": 2200,
+        "star": 4,
+        "reviewCount": 1,
+        "image": "https://i.imgur.com/O9wLqTS.jpg"
+    },
+    {
+        "id": "113",
+        "name": "ASUS ROG CLAYMORE CHERRY MX SWITCH MECHANICAL GAMING KEYBOARD",
+        "brand": "ASUS",
+        "price": 17500,
+        "star": 4,
+        "reviewCount": 3,
+        "image": "https://i.imgur.com/OWUwvYm.jpg"
+    },
+    {
+        "id": "113",
+        "name": "THERMALTAKE LEVEL 20 RGB RAZER GREEN GAMING KEYBOARD",
+        "brand": "THERMALTAKE",
+        "price": 14000,
+        "star": 4,
+        "reviewCount": 2,
+        "image": "https://i.imgur.com/nAYeZdO.jpg"
+    },
+    {
+        "id": "114",
+        "name": "LG 22MK600M 22 INCH IPS BORDERLESS FULL HD MONITOR",
+        "brand": "LG",
+        "price": 15500,
+        "star": 4,
+        "reviewCount": 2,
+        "image": "https://i.imgur.com/2i6V9Ax.jpg"
+    },
+    {
+        "id": "115",
+        "name": "ASUS TUF VG27AQ 27 INCH 2K 165HZ G-SYNC GAMING MONITOR",
+        "brand": "ASUS",
+        "price": 47500,
+        "star": 5,
+        "reviewCount": 2,
+        "image": "https://i.imgur.com/KHNjLit.jpg"
+    },
+    {
+        "id": "116",
+        "name": "ASUS ROG CLAYMORE CHERRY MX SWITCH MECHANICAL GAMING KEYBOARD",
+        "brand": "ASUS",
+        "price": 17500,
+        "star": 4,
+        "reviewCount": 3,
+        "image": "https://i.imgur.com/OWUwvYm.jpg"
+    },
+    {
+        "id": "117",
+        "name": "SAMSUNG 970 EVO NVME M.2 250GB SSD",
+        "brand": "SAMSUNG",
+        "price": 6700,
+        "star": 5,
+        "reviewCount": 10,
+        "image": "https://i.imgur.com/yMlgkPR.jpg"
+    },
+    {
+        "id": "118",
+        "name": "Intel 10th Gen Comet Lake Core i5 10400F Desktop Processor",
+        "brand": "Intel",
+        "price": 14400,
+        "star": 3,
+        "reviewCount": 10,
+        "image": "https://i.imgur.com/ZA4JPvQ.jpg"
+    },
+    {
+        "id": "119",
+        "name": "Intel 11th Gen Rocket Lake Core i5 11400 Desktop Processor",
+        "brand": "Intel",
+        "price": 19500,
+        "star": 4,
+        "reviewCount": 13,
+        "image": "https://i.imgur.com/UsEgFbi.jpg"
+    },
+    {
+        "id": "120",
+        "name": "Intel 9th Gen Coffee Lake Core i7 9700K Desktop Processor",
+        "brand": "Intel",
+        "price": 35500,
+        "star": 5,
+        "reviewCount": 2,
+        "image": "https://i.imgur.com/np5cH2l.jpg"
     }
 ]

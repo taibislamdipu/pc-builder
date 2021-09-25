@@ -13,14 +13,14 @@ const Shop = () => {
             let data = await fetch('./products.json');
             data = await data.json();
             setItems(data);
-            console.log('data', data);
+            // console.log('data', data);
         }
         callApi();
 
     }, [])
 
-    const handleAddToCart = (product) => {
-        const newCart = [...cart, product];
+    const handleAddToCart = (item) => {
+        const newCart = [...cart, item];
         setCart(newCart);
 
     }

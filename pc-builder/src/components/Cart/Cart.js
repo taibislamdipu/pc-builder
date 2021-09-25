@@ -4,16 +4,17 @@ import './Cart.css';
 const Cart = (props) => {
     console.log('props.cart', props.cart);
 
-    const name = props.cart;
-    // const { cart } = props.cart;
-    // console.log('product', cart);
-    // const totalReducer = (previous, item) => previous + product.price;
-    // const total = product.reduce(totalReducer, 0)
+    const name = props.cart.name;
+
+    // const item = props.cart;
+    // const totalReducer = (previous, item) => previous + item.price;
+    // const total = item.reduce(totalReducer, 0)
+    // console.log('total', total);
 
 
     // console.log('totalPrice');
     return (
-        <div>
+        <div className="">
             {/* <h3>Total Cost: {total}</h3> */}
             <ul>
                 <li>{name}</li>
