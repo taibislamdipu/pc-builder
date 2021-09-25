@@ -1,0 +1,12 @@
+
+
+.single-product-item{
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.item-image{
+    width: 200px;
+}

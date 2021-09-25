@@ -1,0 +1,47 @@
+[
+    {
+        "id": "101",
+        "name": "Intel 10th Gen Comet Lake Core i5 10400F Desktop Processor",
+        "core": 6,
+        "price": "14400",
+        "star": 3,
+        "reviewCount": 10,
+        "image": "https://i.imgur.com/ZA4JPvQ.jpg"
+    },
+    {
+        "id": "102",
+        "name": "Intel 11th Gen Rocket Lake Core i5 11400 Desktop Processor",
+        "core": 8,
+        "price": "19500",
+        "star": 4,
+        "reviewCount": 13,
+        "image": "https://i.imgur.com/ZA4JPvQ.jpg"
+    },
+    {
+        "id": "103",
+        "name": "Intel 10th Gen Comet Lake Core i5 10400F Desktop Processor",
+        "core": 6,
+        "price": "14400",
+        "star": 3,
+        "reviewCount": 223,
+        "image": "https://i.imgur.com/ZA4JPvQ.jpg"
+    },
+    {
+        "id": "104",
+        "name": "Intel 10th Gen Comet Lake Core i5 10400F Desktop Processor",
+        "core": 8,
+        "price": "14400",
+        "star": 3,
+        "reviewCount": 303,
+        "image": "https://i.imgur.com/ZA4JPvQ.jpg"
+    },
+    {
+        "id": "105",
+        "name": "Intel 10th Gen Comet Lake Core i5 10400F Desktop Processor",
+        "core": 8,
+        "price": "14400",
+        "star": 3,
+        "reviewCount": 42,
+        "image": "https://images-na.ssl-images-amazon.com/images/I/415oziPFA0L._AC_US218_.jpg"
+    }
+]
