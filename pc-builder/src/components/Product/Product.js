@@ -2,10 +2,12 @@ import React from 'react';
 import './Product.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import Rating from 'react-rating';
 
 const Product = (props) => {
 
     const item = props.item;
+    console.log('props.item', item);
     const image = props.item.hasOwnProperty('image') ? props.item.image : null;
     const name = props.item.hasOwnProperty('name') ? props.item.name : null;
     const price = props.item.hasOwnProperty('price') ? props.item.price : null;
@@ -19,7 +21,17 @@ const Product = (props) => {
         <div className="single-product-item">
             <img className="item-image" src={image} alt="" />
             <p>{name}</p>
-            <p>{star} / {reviewCount} Reviews </p>
+
+            <div className="d-flex justify-content-center">
+                <Rating
+                    initialRating={star}
+                    emptySymbol="far fa-star"
+                    fullSymbol="fas fa-star"
+                    readonly
+                />
+                <p className="ms-2">{star}/{reviewCount} Reviews </p>
+
+            </div>
             <p>Brand: {brand}</p>
             <p><b>${price}</b></p>
             <button onClick={() => handleAddToCart(item)} className="btn btn-success">
