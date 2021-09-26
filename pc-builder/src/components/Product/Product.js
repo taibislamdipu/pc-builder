@@ -32,7 +32,7 @@ const Product = (props) => {
                         readonly
                     />
                 </div>
-                <p className="ms-2">{star}/{reviewCount} Reviews </p>
+                <p className="ms-2">{reviewCount} Reviews</p>
 
             </div>
             <p>Brand: {brand}</p>
