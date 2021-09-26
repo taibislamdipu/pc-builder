@@ -1,8 +1,6 @@
 # PC Builder
 
-## Live Preview
-
-Website : https://reactpcbuild.netlify.app/
+## Website : https://reactpcbuild.netlify.app/
 
 ## Live Preview
 
