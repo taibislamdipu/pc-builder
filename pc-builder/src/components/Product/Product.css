@@ -2,11 +2,23 @@
 
 .single-product-item{
     border: 1px solid lightgray;
+    border-radius: 7px;
     text-align: center;
     padding: 20px;
+}
+
+.single-product-item:hover .item-name{
+    color: green;
+    cursor: pointer;
 }
 
 
 .item-image{
     width: 200px;
+}
+
+
+
+.rating{
+    color: green;
 }

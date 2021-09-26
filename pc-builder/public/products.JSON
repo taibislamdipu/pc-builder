@@ -9,6 +9,15 @@
         "image": "https://i.imgur.com/ZA4JPvQ.jpg"
     },
     {
+        "id": "124",
+        "name": "COUGAR MX340 MID TOWER SIDE TEMPERED GLASS CASE",
+        "brand": "COUGAR",
+        "price": 3400,
+        "star": 4,
+        "reviewCount": 23,
+        "image": "https://i.imgur.com/v8VXqup.png"
+    },
+    {
         "id": "102",
         "name": "Intel 11th Gen Rocket Lake Core i5 11400 Desktop Processor",
         "brand": "Intel",
@@ -18,6 +27,15 @@
         "image": "https://i.imgur.com/UsEgFbi.jpg"
     },
     {
+        "id": "122",
+        "name": "Cooler Master Masterbox 5 MSI Edition ATX PC Case",
+        "brand": "Cooler Master",
+        "price": 7500,
+        "star": 3,
+        "reviewCount": 7,
+        "image": "https://i.imgur.com/46ZMXlb.jpg"
+    },
+    {
         "id": "103",
         "name": "Intel 9th Gen Coffee Lake Core i7 9700K Desktop Processor",
         "brand": "Intel",
@@ -25,6 +43,15 @@
         "star": 5,
         "reviewCount": 2,
         "image": "https://i.imgur.com/np5cH2l.jpg"
+    },
+    {
+        "id": "123",
+        "name": "ASUS ROG Strix NVIDIA GeForce RTX 3090 OC Edition 24GB Gaming Graphics Card",
+        "brand": "NVIDIA",
+        "price": 198000,
+        "star": 5,
+        "reviewCount": 17,
+        "image": "https://i.imgur.com/glOEbcY.jpg"
     },
     {
         "id": "104",
@@ -43,6 +70,15 @@
         "star": 3,
         "reviewCount": 42,
         "image": "https://i.imgur.com/EeTouUR.jpg"
+    },
+    {
+        "id": "121",
+        "name": "COUGAR BLAZER ESSENCE MID-TOWER GAMING CASE",
+        "brand": "COUGAR",
+        "price": 12500,
+        "star": 4,
+        "reviewCount": 2,
+        "image": "https://i.imgur.com/HuPrhYc.png"
     },
     {
         "id": "106",

@@ -18,17 +18,19 @@ const Product = (props) => {
     const handleAddToCart = props.handleAddToCart;
 
     return (
-        <div className="single-product-item">
+        <div className="single-product-item ">
             <img className="item-image" src={image} alt="" />
-            <p>{name}</p>
+            <p className="item-name">{name}</p>
 
             <div className="d-flex justify-content-center">
-                <Rating
-                    initialRating={star}
-                    emptySymbol="far fa-star"
-                    fullSymbol="fas fa-star"
-                    readonly
-                />
+                <div className="rating">
+                    <Rating
+                        initialRating={star}
+                        emptySymbol="far fa-star"
+                        fullSymbol="fas fa-star"
+                        readonly
+                    />
+                </div>
                 <p className="ms-2">{star}/{reviewCount} Reviews </p>
 
             </div>
