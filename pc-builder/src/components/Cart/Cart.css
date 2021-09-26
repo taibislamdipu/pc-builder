@@ -1,5 +1,15 @@
 
 
+
+.cart-item{
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
 .cart-image{
     width: 50px;
 }

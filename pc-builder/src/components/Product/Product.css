@@ -6,6 +6,7 @@
     text-align: center;
     padding: 20px;
     transition: 0.4s;
+    background-color: white;
 }
 
 .single-product-item:hover .item-name{
