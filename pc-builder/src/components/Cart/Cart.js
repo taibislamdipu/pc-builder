@@ -2,17 +2,17 @@ import React from 'react';
 import './Cart.css';
 
 const Cart = (props) => {
-    console.log('cart props', props);
 
+    // receive cart data from shop.js 
     const cart = props.cart;
 
-    const TotalCost = cart.reduce((sum, item) => sum + item.price, 0)
-
+    // finding the total cost of the added item into cart
+    const totalCost = cart.reduce((sum, item) => sum + item.price, 0)
 
     return (
         <div className="">
             <h3>Product Added: {cart.length}</h3>
-            <h4>Total Cost: ${TotalCost}</h4>
+            <h4>Total Cost: ${totalCost}</h4>
             <hr />
             {
                 cart.map(item =>

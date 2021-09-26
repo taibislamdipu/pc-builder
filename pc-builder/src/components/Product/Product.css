@@ -5,11 +5,17 @@
     border-radius: 7px;
     text-align: center;
     padding: 20px;
+    transition: 0.4s;
 }
 
 .single-product-item:hover .item-name{
     color: green;
     cursor: pointer;
+}
+
+.single-product-item:hover{
+    box-shadow: 10px 10px 24px -13px rgba(0, 0, 0, 0.75);
+
 }
 
 

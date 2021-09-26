@@ -3,6 +3,7 @@ import './Header.css';
 
 const Header = () => {
 
+    // function used for refresh the website
     const reloadPage = () => {
         window.location.reload();
     }

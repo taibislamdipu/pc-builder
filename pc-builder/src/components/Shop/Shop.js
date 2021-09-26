@@ -8,16 +8,18 @@ const Shop = () => {
     const [items, setItems] = useState([]);
     const [cart, setCart] = useState([]);
 
+    // loading data from the local database
     useEffect(() => {
-        async function callApi() {
+        async function loadData() {
             let data = await fetch('./products.json');
             data = await data.json();
             setItems(data);
         }
-        callApi();
+        loadData();
 
     }, [])
 
+    // Add clicked item into cart function
     const handleAddToCart = (items) => {
         const newCart = [...cart, items];
         setCart(newCart);
@@ -31,6 +33,7 @@ const Shop = () => {
             <div className="products-container">
 
                 <div className="product-container">
+
                     {
                         items.map(item => <Product
 

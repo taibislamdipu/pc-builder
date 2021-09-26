@@ -6,8 +6,8 @@ import Rating from 'react-rating';
 
 const Product = (props) => {
 
-    const item = props.item;
-    console.log('props.item', item);
+    // receive data from Shop.js and checking the object is it in the array or not 
+    const item = props.hasOwnProperty('item') ? props.item : null;
     const image = props.item.hasOwnProperty('image') ? props.item.image : null;
     const name = props.item.hasOwnProperty('name') ? props.item.name : null;
     const price = props.item.hasOwnProperty('price') ? props.item.price : null;
@@ -15,6 +15,7 @@ const Product = (props) => {
     const star = props.item.hasOwnProperty('star') ? props.item.star : null;
     const reviewCount = props.item.hasOwnProperty('reviewCount') ? props.item.reviewCount : null;
 
+    // Add clicked item into cart function receive from Shop.js
     const handleAddToCart = props.handleAddToCart;
 
     return (
